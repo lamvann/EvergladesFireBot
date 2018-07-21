@@ -18,5 +18,4 @@ for tweet in public_tweets:
     print(tweet.text)
 
 # Tweet 3 times in a row as test
-for idx in list(range(3)):
-    api.update_status('hello from automated python tweet #' + str(idx + 1))
+api.update_status('hello from automated python 🙂 tweet #' + str(1) + " of the day.")
